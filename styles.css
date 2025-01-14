@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    /*justify-content: center;*/
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    width: 250px; 
+    height: auto;
+}
+
+.filmgrid h2{
+    text-align: center;
+}
+
+.filmgrid ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.filmgrid li {
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#grad {
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(138, 138, 134));
+  }
+
+.no-bullets {
+    list-style-type: none; /* Verwijdert de bolletjes */
+    padding: 0; /* Verwijdert de standaard padding */
+    margin: 0; /* Verwijdert de standaard marge */
+}
