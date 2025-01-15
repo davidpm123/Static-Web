@@ -2,13 +2,15 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    color:white ;
 }
 
 header {
-    background-color: #333;
+    background-color: #33333300;
     color: white;
-    padding: 1rem;
+    padding: 5px;
 }
+
 
 nav ul {
     list-style-type: none;
@@ -16,7 +18,7 @@ nav ul {
 }
 
 nav ul li {
-    /*justify-content: center;*/
+    justify-content: center;
     display: inline;
     margin-right: 20px;
 }
@@ -43,7 +45,7 @@ img {
 .filmgrid ul {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .filmgrid li {
@@ -53,9 +55,9 @@ img {
 
 footer {
     text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
+    padding: 2px;
+    background-color: #33333300;
+    color: rgb(0, 0, 0);
     position:fixed;
     bottom: 0;
     width: 100%;
@@ -66,7 +68,55 @@ footer {
   }
 
 .no-bullets {
-    list-style-type: none; /* Verwijdert de bolletjes */
-    padding: 0; /* Verwijdert de standaard padding */
-    margin: 0; /* Verwijdert de standaard marge */
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
+
+
+.login-icon {
+    position: absolute; 
+    top: 20px; 
+    right: 10px; 
+    font-size: 40px; 
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: #333; 
+}
+
+
+.login-icon img {
+    width: 75px; 
+    height: 75px; 
+    margin-right: 5px; 
+}
+
+
+.login-icon:hover {
+    color: #007bff; 
+}
+
+
+.home-icon {
+    position: absolute; 
+    top: 20px; 
+    left: 10px; 
+    font-size: 40px; 
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: #333; 
+}
+
+
+.home-icon img {
+    width: 75px; 
+    height: 75px; 
+    margin-right: 5px; 
+}
+
+
+.home-icon:hover {
+    color: #007bff; 
 }
