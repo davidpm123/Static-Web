@@ -4,58 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmwebsite-Filmdetail</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_film.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="grad">
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="film.html">Filmdetail</a></li>
+                <li>
+                    <a href="index.html" class="home-icon" title="Ga naar home">
+                        <img src="foto's/home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="home logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="login.html" class="login-icon" title="Ga naar login">
+                        <img src="foto's/login_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="login logo">
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="filminfo">
-            <h1>Film 1</h1>
-            <p>Genre: Actie</p>
-            <p>Regisseur: John Doe</p>
-            <p>Acteurs: Jane Doe, John Smith</p>
-            <p>Plot: Een actiefilm over een groep agenten die een gevaarlijke missie moeten uitvoeren.</p>
+
+        <section id="pulp-fiction" class="filminfo">
+            <img src="foto's/film 1.webp" alt="Pulp Fiction">
+            <div>
+                <h1>Pulp Fiction</h1>
+                <p>Genre: Misdaad en thriller</p>
+                <p>Regisseur: Quentin Tarantino</p>
+                <p>Acteurs: John Travolta, Uma Thurman, Samuel L. Jackson</p>
+                <p>Plot: Een film die verschillende verhalen met elkaar verweeft over de onderwereld in Los Angeles.</p>
+            </div>
         </section>
+        
+
+    
+        <section id="mission-impossible" class="filminfo">
+            <img src="foto's/film2.jpg" alt="Mission Impossible">
+            <div>
+                <h1>Mission Impossible</h1>
+                <p>Genre: Actie</p>
+                <p>Regisseur: Brian De Palma</p>
+                <p>Acteurs: Tom Cruise, Ving Rhames, Simon Pegg</p>
+                <p>Plot: Ethan Hunt moet een geheime missie uitvoeren en wordt geconfronteerd met vijanden die hem proberen te vernietigen.</p>
+            </div>    
+        </section>
+
+        
+        <section id="fall-guy" class="filminfo">
+            <img src="foto's/film3.jpg" alt="Fall Guy">
+            <div>
+                <h1>Fall Guy</h1>
+                <p>Genre: Comedy en Actie</p>
+                <p>Regisseur: John Doe</p>
+                <p>Acteurs: Tom Hanks, Will Smith</p>
+                <p>Plot: Een komedie over een stuntman die verstrikt raakt in een misdaadonderzoek.</p>
+            </div>    
+        </section>
+
         <section class="reviews">
             <h2>Reviews</h2>
             <ul>
                 <li>
-                    <p>5/5 sterren</p>
+                    <p>5/5 sterren - Mission Impossible</p>
                     <p>Een geweldige film! De actie is spannend en de acteurs zijn top.</p>
                 </li>
                 <li>
-                    <p>4/5 sterren</p>
+                    <p>4/5 sterren - Fall Guy</p>
                     <p>Een leuke film, maar de plot is een beetje voorspelbaar.</p>
+                </li>
+                <li>
+                    <p>5/5 sterren - Pulp Fiction</p>
+                    <p>OMG! Wat een film, ongelooflijk.</p>
                 </li>
             </ul>
         </section>
+
         <section class="gerelateerde-films">
             <h2>Gerelateerde films</h2>
-            <ul>
+            <ul class="no-bullets">
+                <li>
+                    <img src="foto's/film 1.webp" alt="Film 1: Pulp Fiction">
+                    <h3><a href="#pulp-fiction">Pulp Fiction</a></h3>
+                </li>
                 <li>
                     <img src="foto's/film2.jpg" alt="Film 2: Mission Impossible">
-                    <h3>Mission Impossible</h3>
+                    <h3><a href="#mission-impossible">Mission Impossible</a></h3>
                 </li>
                 <li>
                     <img src="foto's/film3.jpg" alt="Film 3: Fall Guy">
-                    <h3>Fall Guy</h3>
+                    <h3><a href="#fall-guy">Fall Guy</a></h3>
                 </li>
             </ul>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2023 Filmwebsite</p>
+        <p>&copy; 2025 Filmwebsite van David Pereira Monteiro </p>
     </footer>
 </body>
 </html>
