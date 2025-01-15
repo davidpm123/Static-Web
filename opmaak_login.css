@@ -1,37 +1,121 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
-h1 {
-    color: #333;
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.login-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 400px; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 form {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
-label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
+input, button {
+    width: 80%;
+    max-width: 250px;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
 }
 
 button {
-    padding: 10px 15px;
-    background-color: #333;
+    background-color: #007bff;
     color: white;
     border: none;
     cursor: pointer;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse
+button:hover {
+    background-color: #0056b3;
+}
+
+#grad {
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(138, 138, 134));
+}
+
+.login-icon {
+    position: absolute; 
+    top: 20px; 
+    right: 10px; 
+    font-size: 40px; 
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333; 
+}
+
+
+.login-icon img {
+    width: 75px; 
+    height: 75px; 
+    margin-right: 5px; 
+}
+
+
+.login-icon:hover {
+    color: #007bff;
+}
+
+
+.home-icon {
+    position: absolute; 
+    top: 20px;
+    left: 10px; 
+    font-size: 40px; 
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: #333; 
+}
+
+.home-icon img {
+    width: 75px; 
+    height: 75px;
+    margin-right: 5px; 
+}
+
+
+.home-icon:hover {
+    color: #007bff; 
 }
