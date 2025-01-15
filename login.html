@@ -6,14 +6,35 @@
     <title>Filmwebsite-Login</title>
     <link rel="stylesheet" href="opmaak_login.css">
 </head>
-<body>
-    <h1>Login</h1>
-    <form action="dashboard.html" method="post">
-        <label for="username">Gebruikersnaam:</label>
-        <input type="text" id="username" name="username" required>
-        <label for="password">Wachtwoord:</label>
-        <input type="password" id="password" name="password" required>
-        <button type="submit">Inloggen</button>
-    </form>
+<body id="grad">
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" class="home-icon" title="Ga naar home">
+                        <img src="foto's/home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="home logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="login.html" class="login-icon" title="Ga naar login">
+                        <img src="foto's/login_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="login logo">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="dashboard.html" method="post">
+            <label for="username">Gebruikersnaam:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Wachtwoord:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Inloggen</button>
+        </form>
+    </div>
 </body>
+
 </html>
