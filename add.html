@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Toevoegen</title>
+    <link rel="stylesheet" href="styles_add.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" title="Ga naar home">
+                        <img src="foto's/home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="Home">
+                    </a>
+                </li>
+                <li>
+                    <a href="login.html" title="Ga naar login">
+                        <img src="foto's/login_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="Login">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Film Toevoegen</h1>
+            <p>Vul hieronder de informatie in om een nieuwe film toe te voegen.</p>
+        </section>
+
+        <section>
+            <form>
+                <div>
+                    <label for="title">Titel:</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div>
+                    <label for="director">Regisseur:</label>
+                    <input type="text" id="director" name="director" required>
+                </div>
+                <div>
+                    <label for="actors">Acteurs:</label>
+                    <input type="text" id="actors" name="actors" required>
+                </div>
+                <div>
+                    <label for="genre">Genre:</label>
+                    <input type="text" id="genre" name="genre" required>
+                </div>
+                <div>
+                    <label for="description">Beschrijving:</label>
+                    <textarea id="description" name="description" rows="4" placeholder="Korte beschrijving van de film"></textarea>
+                </div>
+                <button type="submit">Film Toevoegen</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Contactgegevens:</p>
+            <p>📞 Telefoonnummer: +32 123 456 789</p>
+            <p>✉️ E-mail: david.pereira.monteiro@ehb.com</p>
+            <p>📍 Adres: Straat 123, 1000 Brussel, België</p>
+            <p>&copy; 2025 Filmwebsite van David Pereira Monteiro</p>
+        </footer>
+        
+    </main>
+</body>
+</html>
