@@ -3,44 +3,59 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background-image: url("foto's/achtergrond.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 20px;
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
 }
 
-/* Tabel */
+header nav ul li {
+    margin-left: 10px;
+}
+
+header nav ul li a img {
+    width: 24px;
+    height: 24px;
+}
+
 table {
     width: 80%;
     margin: 20px auto;
-    border-collapse: collapse; 
+    border-collapse: collapse;
 }
 
 th, td {
     padding: 10px;
     text-align: left;
-    border: 1px solid #ddd; 
+    border: 1px solid #ddd;
 }
 
 th {
-    background-color: #3498db; 
+    background-color: #3498db;
     color: white;
 }
 
 a {
-    color: #3498db; 
-    text-decoration: none; 
+    color: #3498db;
+    text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: #f4f4f4; 
 }
 
 a:hover {
-    background-color: #3498db; 
-    color: white; 
+    background-color: #3498db;
+    color: white;
 }
-
 
 a[href="add.html"] {
     display: block;
@@ -48,7 +63,7 @@ a[href="add.html"] {
     margin: 30px auto;
     text-align: center;
     padding: 10px;
-    background-color: #27ae60; 
+    background-color: #0b5786;
     color: white;
     font-weight: bold;
     border-radius: 5px;
@@ -56,51 +71,34 @@ a[href="add.html"] {
 }
 
 a[href="add.html"]:hover {
-    background-color: #219150; 
+    background-color: #67828e;
 }
 
-.login-icon {
-    position: absolute; 
-    top: 20px; 
-    right: 10px; 
-    font-size: 40px; 
-    display: flex;
-    align-items: center;
+table a {
+    color: white;
+    background-color: #3498db;
     text-decoration: none;
-    color: #333; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
 }
 
-
-.login-icon img {
-    width: 75px; 
-    height: 75px; 
-    margin-right: 5px; 
+table a:hover {
+    background-color: #2c82b6;
 }
 
-
-.login-icon:hover {
-    color: #007bff;
+.action-edit {
+    background-color: #28a745;
 }
 
-
-.home-icon {
-    position: absolute; 
-    top: 20px;
-    left: 10px; 
-    font-size: 40px; 
-    display: flex;
-    align-items: center;
-    text-decoration: none; 
-    color: #333; 
+.action-edit:hover {
+    background-color: #218838;
 }
 
-.home-icon img {
-    width: 75px; 
-    height: 75px;
-    margin-right: 5px; 
+.action-delete {
+    background-color: #dc3545;
 }
 
-
-.home-icon:hover {
-    color: #007bff; 
+.action-delete:hover {
+    background-color: #c82333;
 }
